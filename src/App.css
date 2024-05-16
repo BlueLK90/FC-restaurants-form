@@ -1,0 +1,80 @@
+body {
+  font-family: "Arial Narrow Bold", sans-serif;
+}
+.App {
+  text-align: center;
+}
+form,
+.details {
+  width: 50%;
+  min-width: 300px;
+  margin: 0 auto;
+}
+input[type="text"] {
+  height: 20px;
+  border-radius: 5px;
+  border: solid 1px;
+}
+input {
+  margin: 7px;
+}
+.ratings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: center;
+  justify-content: center;
+}
+.resCard {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: solid 1px rgb(190, 195, 197);
+  border-radius: 10px;
+  justify-items: center;
+  align-items: center;
+  padding: 5% 0;
+  box-shadow: 1px 1px 3px rgb(207, 204, 204);
+  cursor: pointer;
+  text-align: center;
+}
+.list a {
+  text-decoration: none;
+}
+.resCard:hover {
+  scale: 1.05;
+}
+img {
+  width: 90%;
+  border-radius: 5px;
+}
+button {
+  width: 100px;
+  border-radius: 5px;
+  border: solid 1px rgb(211, 84, 84);
+  background-color: rgb(238, 108, 108);
+  box-shadow: 1px 1px 2px rgb(128, 126, 126);
+  padding: 5px;
+  color: rgb(34, 31, 27);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  gap: 30px;
+  padding-top: 5px;
+}
+.details {
+  padding: 5%;
+}
+.details img {
+  border: solid 2px rgb(241, 144, 144);
+  box-shadow: 1px 2px 4px rgb(128, 126, 126);
+}
